@@ -4,5 +4,13 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\Login.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Login.cshtml" />
+  </ItemGroup>
+
 
 </Project>
